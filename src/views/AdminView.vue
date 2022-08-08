@@ -1,5 +1,4 @@
 <template>
-  <h1 class="x">fajna jesteś</h1>
 <div v-for="question in questions" v-bind:key="question.id">
   <QuestionCmp :question="question"/>
 </div>

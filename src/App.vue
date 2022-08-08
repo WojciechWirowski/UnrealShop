@@ -14,11 +14,7 @@
 </style>
 <script>
 import NavBar from "@/components/NavBar";
-// import {ItemStore} from "@/store/itemStore";
-// import {UserStore} from "@/store/userStore";
-//
-// const itemStore = ItemStore()
-// const userStore = UserStore()
+
 
 export default {
   components: {NavBar}

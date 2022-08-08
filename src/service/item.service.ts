@@ -16,12 +16,12 @@ export class ItemService {
         return items.data
     }
 
-    // async getItem(
-    //     id: number
-    // ): Promise<Item>{
-    //     const res = await http.post("/items", {
-    //         id: id
-    //     })
-    //     return res.data
-    // }
+    async getItem(
+        id: number
+    ): Promise<Item>{
+        const res = await http.post("/items", {
+            id: id
+        })
+        return res.data
+    }
 }
